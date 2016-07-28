@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html>
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="style.css"/>
+   <title>Chloe's Travel Diaries</title>
+</head>
+
+<body>
+<div id="wrapper">
+
+<div id="title">
+<img id="logo" src="title1.png" height="100"/>
+
+<p id="intro">Hi! My name is Xueying Zhou.<br />
+I am a first year Mathematics at University of Waterloo.<br />
+I participated in the Math in Europe Program this summer.<br />
+I am passionate about computer science, travelling, and photography.<br />
+So I designed this website to show all the amazing places<br />
+I've visited in Europe!<br />
+I hope you enjoy!
+</p>
+
+<p id="instruct"> Please Click on Photos to Check Out My Travel Diary!</p>
+</div>
+
+<div id="pic2"><img class="pic" src="venice.jpg" height="230"/></div>
+<div id="hover2">
+<a href="venice.html"><img src="veniceword.png" height="50"/> </a>
+</div>
+
+<div id="pic5"><img src="gerome.jpg" height="230"/></div>
+<div id="hover5">
+<a href="gerome.html"><img src="geromeword.png" height="43"/> </a>
+</div>
+
+<div id="pic1"><img src="rome.jpg" height="230"/></div>
+<div id="hover1">
+<a href="rome.html"><img src="romeword.png" height="50"/> </a>
+</div>
+
+<div id="pic6"><img src="berlin.jpg" height="230"/></div>
+<div id="hover6">
+<a href="berlin.html"><img src="berlinword.png" height="57"/> </a>
+</div>
+
+<div id="pic3"><img src="barcelona.jpg" height="230"/></div>
+<div id="hover3">
+<a href="barcelona.html"><img src="barcelonaword.png" height="50"/> </a>
+</div>
+
+<div id="pic4"><img src="vetican.jpg" height="230"/></div>
+<div id="hover4">
+<a href="vetican.html"><img src="veticanword.png" height="50"/> </a>
+</div>
+
+</div>
+
+<script src="jquery.js"></script>
+<script type="text/javascript" language="JavaScript">
+
+$(document).ready(function() {
+   $("#logo").hide(10).fadeIn(3000);
+   $("#intro").hide(2000).fadeIn(3000);
+   $("#instruct").hide(4000).fadeIn(3000);
+  });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,306 @@
+
+
+body{
+	width:100%;
+	background-color:white;
+    margin: 0;
+    padding: 0;
+}
+#title {
+	   position:absolute;
+	   top:200px;
+	   left:420px;
+	   padding-bottom:20px;
+	   margin-bottom:50px;
+		   }
+.instruct {
+	margin-top:10px;
+	font:20px bold;
+}   
+#title > p {color:grey;
+	      font:15px Tahoma;
+		  text-align:center; 
+		}
+
+#pic1{
+	position:absolute;
+	top:0px;
+	left:50px;
+}
+#hover1{
+	background-color:white;
+	padding-top:89px;
+	padding-bottom:89px;
+	padding-left:35px;
+	padding-right:35px;
+	position:absolute;
+	top:0px;
+	left:50px;
+	opacity: 0;
+}
+#hover1:hover{opacity:1;}
+#pic2{
+	position:absolute;
+	top:230px;
+	left:50px;
+}
+#hover2{
+	background-color:white;
+	padding-top:89px;
+	padding-bottom:89px;
+	padding-left:35px;
+	padding-right:35px;
+	position:absolute;
+	top:230px;
+	left:50px;
+	opacity: 0;
+}
+#hover2:hover{opacity:1;}
+#pic3{
+	position:absolute;
+	top:460px;
+	left:50px;
+}
+#hover3{
+	background-color:white;
+	padding-top:89px;
+	padding-bottom:89px;
+	padding-left:20px;
+	padding-right:50px;
+	position:absolute;
+	top:460px;
+	left:50px;
+	opacity: 0;
+}
+#hover3:hover{opacity:1;}
+#pic4{
+	position:absolute;
+	top:0px;
+	left:1000px;
+}
+#hover4{
+	background-color:white;
+	padding-top:89px;
+	padding-bottom:89px;
+	padding-left:45px;
+	padding-right:45px;
+	position:absolute;
+	top:0px;
+	left:1000px;
+	opacity: 0;
+}
+#hover4:hover{opacity:1;}
+#pic5{
+	position:absolute;
+	top:230px;
+	left:1000px;
+}
+#hover5{
+	background-color:white;
+	padding-top:92px;
+	padding-bottom:92px;
+	padding-left:10px;
+	padding-right:10px;
+	position:absolute;
+	top:230px;
+	left:1000px;
+	opacity: 0;
+}
+#hover5:hover{opacity:1;}
+#pic6{
+	position:absolute;
+	top:460px;
+	left:1000px;
+}
+#hover6{
+	background-color:white;
+	padding-top:89px;
+	padding-bottom:89px;
+	padding-left:35px;
+	padding-right:35px;
+	position:absolute;
+	top:460px;
+	left:1000px;
+	opacity: 0;
+}
+#hover6:hover{opacity:1;}
+
+
+#city {
+	position:absolute;
+	top:50px;
+	left:39%;
+}
+nav {
+	margin-top:140px;
+	margin-left:14%;
+}
+
+nav > a{
+	font:20px Tahoma;
+	padding-left:3%;
+    display: inline-block;
+	padding-right:3%;
+    text-decoration:none;
+	
+}
+nav > a:visited {
+	color:grey;
+}
+nav > a:link {
+	color:grey;
+}
+
+nav > a:hover {
+	color:white;
+	background-color:grey;
+}
+.dropbtn {
+	background-color:white;
+	border:none;
+    color: grey;
+    margin-left:30px;
+	padding-left:10px;
+    font:20px Tahoma;
+    cursor: pointer;
+}
+
+.dropdown {
+	z-index:1000;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	font:10px Tahoma;
+    color: white;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color: white;
+    color:black;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: grey;
+	color:white;
+}
+
+#p1{
+	position:absolute;
+	top:175px;
+	left:0px;
+}
+#p2{
+	position:absolute;
+	top:425px;;
+	left:0px;
+}
+#p3{
+	position:absolute;
+	top:175px;
+	left:945px;
+}
+#p4{
+	position:absolute;
+	top:425px;
+	left:945px;
+}
+#p5{
+	position:absolute;
+	top:675px;
+	left:0px;
+}
+#p6{
+	position:absolute;
+	top:925px;
+	left:0px;
+}
+#p7{
+	position:absolute;
+	top:675px;
+	left:945px;
+}
+#p8{
+	position:absolute;
+	top:925px;
+	left:945px;
+}
+#p9{
+	position:absolute;
+	top:1175px;
+	left:0px;
+}
+#p10{
+	position:absolute;
+	top:1425px;
+	left:0px;
+}
+#p11{
+	position:absolute;
+	top:1175px;
+	left:945px;
+}
+#p12{
+	position:absolute;
+	top:1425px;
+	left:945px;
+}
+#cityintro > p, #highlight1 > p, #highlight2 > p{
+  color: black;
+  font: 15px Tahoma;
+  text-align:center;
+  line-height: 150%;
+}
+#cityintro {
+	padding-left:20px;
+    padding-right:20px;
+    padding-top:120px;
+    padding-bottom:120px;
+    border: 5px dashed grey;
+	position:absolute;
+	top:190px;
+	left:477px;
+}
+#highlight1 {
+	position:absolute;
+	top:820px;
+	left:420px;
+	padding-bottom:200px;
+	padding-left:50px;
+	padding-right:50px;
+	border-bottom:2px dashed grey;
+}
+#highlight2{
+	position:absolute;
+	top:1300px;
+	left:515px;
+}
+#return {
+	position:absolute;
+	top:1630px;
+	left:646px; 
+}
+#return > a {
+	color:grey;
+	font:20px Tahoma;
+	text-decoration:none;
+}
+#return > a:hover {
+	color:white;
+	background-color:grey;
+}
+
